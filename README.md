@@ -7,7 +7,7 @@ can execute all aspects of a hot-fire test.
 
 ## Assembled PCB
 
-![Assembled PANDA PCB](Images/assembled_board.jpg)
+![Assembled PANDA PCB](media/assembled_board.jpg)
 
 ## System Architecture
 
@@ -118,7 +118,7 @@ flowchart LR
 
 ## Required Software
 
-This project was created using KiCad v9.0. If manufacturing with JLCPCB, install the Fabrication Toolkit KiCad plugin for JLCPCB.
+This project was created using KiCad v10.0. If manufacturing with JLCPCB, install the Fabrication Toolkit KiCad plugin for JLCPCB.
 
 ## Recommended Manufacturing Options
 

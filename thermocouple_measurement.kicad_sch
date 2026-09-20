@@ -1,25 +1,31 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ca271a1f-f0ab-485a-ad62-29a74e8278ff")
 	(paper "A4")
 	(title_block
 		(title "PANDA")
-		(date "2025-12-21")
-		(rev "3.0.0")
+		(date "2026-09-20")
+		(rev "4.0.0")
 		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Propulsion Actuation and Data Acquisition")
 	)
 	(lib_symbols
 		(symbol "2025-11-28_00-28-49:395934308"
+			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -28,6 +34,8 @@
 			)
 			(property "Value" "395934308"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -36,35 +44,43 @@
 			)
 			(property "Footprint" "CONN_SD-39543-002_NONE_08P_MOL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/395934308?display=pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -73,20 +89,24 @@
 			)
 			(property "ki_keywords" "395934308"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "CONN_SD-39543-002_NONE_08P_MOL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "395934308_1_1"
@@ -1228,14 +1248,18 @@
 		(lib_id "2025-11-28_00-28-49:395934308")
 		(at 156.21 105.41 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64fa56d4-3d90-4c2f-a52b-e52357a7a5f8")
 		(property "Reference" "J20"
 			(at 147.32 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1244,6 +1268,8 @@
 		)
 		(property "Value" "395934308"
 			(at 147.32 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1252,31 +1278,37 @@
 		)
 		(property "Footprint" "Library:CONN_SD-39543-002_NONE_08P_MOL"
 			(at 156.21 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/395934308?display=pdf"
 			(at 156.21 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 156.21 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1304,7 +1336,7 @@
 			(uuid "4c8bc410-2556-40c7-ab5d-ddfd17214120")
 		)
 		(instances
-			(project ""
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/db011d14-1149-4a3d-969c-b91162637961"
 					(reference "J20")
 					(unit 1)
