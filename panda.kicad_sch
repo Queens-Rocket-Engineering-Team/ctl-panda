@@ -252,8 +252,8 @@
 		)
 	)
 	(rectangle
-		(start 90.17 97.79)
-		(end 177.8 152.4)
+		(start 157.48 92.71)
+		(end 245.11 147.32)
 		(stroke
 			(width 0)
 			(type default)
@@ -264,8 +264,8 @@
 		(uuid "61290658-b3da-4781-864b-b6b9e8c1db30")
 	)
 	(rectangle
-		(start 85.09 33.02)
-		(end 184.15 85.09)
+		(start 152.4 27.94)
+		(end 251.46 80.01)
 		(stroke
 			(width 0)
 			(type default)
@@ -277,7 +277,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 46.99) (xy 158.75 46.99)
+			(xy 224.79 41.91) (xy 226.06 41.91)
 		)
 		(stroke
 			(width 0)
@@ -287,7 +287,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 106.68) (xy 109.22 106.68)
+			(xy 175.26 101.6) (xy 176.53 101.6)
 		)
 		(stroke
 			(width 0)
@@ -297,7 +297,7 @@
 	)
 	(global_label "SAFE_24V_CTL"
 		(shape input)
-		(at 107.95 106.68 180)
+		(at 175.26 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -307,7 +307,7 @@
 		)
 		(uuid "0b619bba-c2f2-44b6-b187-a25efae6b138")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.7206 106.68 0)
+			(at 159.0306 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -321,7 +321,7 @@
 	)
 	(global_label "SAFE_24V_CTL"
 		(shape output)
-		(at 158.75 46.99 0)
+		(at 226.06 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -331,7 +331,7 @@
 		)
 		(uuid "e9ac8c7a-06b8-4eb1-acc8-8f0d99ba272d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.9794 46.99 0)
+			(at 242.2894 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -355,7 +355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d3c0aea-6194-4c36-a6c3-08bc75f1e576")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR03"
 			(at 78.74 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -415,7 +415,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
-					(reference "#PWR018")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -433,7 +433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ab2ca32-c781-4145-aea7-dbe41b726578")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR04"
 			(at 105.41 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -493,7 +493,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
-					(reference "#PWR019")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -589,7 +589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a29c8183-0bbc-4fdd-9d2a-1dbb5650a6c2")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 20.32 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -649,7 +649,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -901,7 +901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbde2ed1-811a-4dbb-857b-0dcc982827bb")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 50.8 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -961,14 +961,14 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 109.22 102.87)
+		(at 176.53 97.79)
 		(size 53.34 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -984,7 +984,7 @@
 		)
 		(uuid "9fa93f08-739d-4753-8e9a-eafbcf15bffc")
 		(property "Sheetname" "Power Regulation"
-			(at 109.22 102.1584 0)
+			(at 176.53 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -995,7 +995,7 @@
 			)
 		)
 		(property "Sheetfile" "power_regulation.kicad_sch"
-			(at 109.22 144.0946 0)
+			(at 176.53 139.0146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1006,7 +1006,7 @@
 			)
 		)
 		(pin "SAFE_24V_CTL" input
-			(at 109.22 106.68 180)
+			(at 176.53 101.6 180)
 			(uuid "da60d76b-4261-41ae-b0c8-42d9262d5832")
 			(effects
 				(font
@@ -1024,7 +1024,53 @@
 		)
 	)
 	(sheet
-		(at 128.27 41.91)
+		(at 31.75 39.37)
+		(size 36.83 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "baaa8c25-ef05-4c1e-b681-81c7e32193ae")
+		(property "Sheetname" "Pressure Transducer ADC"
+			(at 31.75 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_adc.kicad_sch"
+			(at 31.75 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 36.83)
 		(size 29.21 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1040,7 +1086,7 @@
 		)
 		(uuid "e5160962-f32b-431d-bdd1-4f3137fc161d")
 		(property "Sheetname" "STM32 Breakout"
-			(at 128.27 41.1984 0)
+			(at 195.58 36.1184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1050,8 +1096,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp32_breakout.kicad_sch"
-			(at 128.27 74.2446 0)
+		(property "Sheetfile" "stm32_breakout.kicad_sch"
+			(at 195.58 69.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1062,7 +1108,7 @@
 			)
 		)
 		(pin "SAFE_24_CTL" output
-			(at 157.48 46.99 0)
+			(at 224.79 41.91 0)
 			(uuid "e91e1e2f-64c3-49a7-920f-a1b4d19c1ad0")
 			(effects
 				(font

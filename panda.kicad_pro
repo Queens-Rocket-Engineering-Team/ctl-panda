@@ -148,8 +148,8 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.1,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.4,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
@@ -159,10 +159,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.09,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.3,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -243,6 +243,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -607,7 +611,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -720,7 +724,7 @@
         "uuid": "226c5870-4123-4efa-a2b3-b42d02f59bb7"
       }
     ],
-    "used_designators": "U5,U8-11,U14,F2,Q4,#PWR76-103,#PWR160-161,C27-42,C61,D9-13,J13,J21,L2,R20-21,R35-39,TP6-9",
+    "used_designators": "C1-50,C61,D1-49,U1-11,U14,F1-17,Q1-5,#PWR1-128,#PWR160-161,Y1-2,CR1,BZ1,H1-4,TP1-4,TP6-9,R1-76,L1-2,J1-4,J13,J21,K1",
     "variants": []
   },
   "sheets": [
@@ -735,6 +739,42 @@
     [
       "e5160962-f32b-431d-bdd1-4f3137fc161d",
       "STM32 Breakout"
+    ],
+    [
+      "baaa8c25-ef05-4c1e-b681-81c7e32193ae",
+      "Pressure Transducer ADC"
+    ],
+    [
+      "fec98204-7618-40ec-841b-17b6f5be0543",
+      "ADS131M08_AIN0"
+    ],
+    [
+      "d2cda848-de2c-415c-a604-b2410cd00c70",
+      "ADS131M08_AIN1"
+    ],
+    [
+      "8361a8de-d9ae-4b49-b50a-90421b9c1f23",
+      "ADS131M08_AIN2"
+    ],
+    [
+      "cfa3143d-3b7f-422d-947c-768ee7ef4968",
+      "ADS131M08_AIN3"
+    ],
+    [
+      "cd70d28e-52c6-400b-a943-4f07a7d997b9",
+      "ADS131M08_AIN4"
+    ],
+    [
+      "1be6ca62-e5c5-46c4-9daf-9accdb2e3735",
+      "ADS131M08_AIN5"
+    ],
+    [
+      "a041bffb-a62e-40c4-ac69-658049243ef4",
+      "ADS131M08_AIN6"
+    ],
+    [
+      "858bb7d5-a0c0-43c7-b3b2-5d4cfc3c77ec",
+      "ADS131M08_AIN7"
     ]
   ],
   "text_variables": {},
