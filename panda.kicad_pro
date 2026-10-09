@@ -533,16 +533,28 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.15,
+        "clearance": 0.3573,
         "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.1417,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DIFF_90E",
-        "pcb_color": "rgb(255, 103, 255)",
+        "diff_pair_width": 0.1191,
+        "name": "DIFF_100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1417,
+        "track_width": 0.1191,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.4611,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1537,
+        "line_style": 0,
+        "name": "DIFF_90",
+        "pcb_color": "rgb(255, 103, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1537,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -552,13 +564,45 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "DIFF_90E",
-        "pattern": "/ESP32 Breakout/USB_*"
-      }
-    ]
+    "netclass_assignments": {
+      "/STM32 Breakout/D_N": [
+        "DIFF_90"
+      ],
+      "/STM32 Breakout/D_P": [
+        "DIFF_90"
+      ],
+      "/STM32 Breakout/RD_N": [
+        "DIFF_100"
+      ],
+      "/STM32 Breakout/RD_P": [
+        "DIFF_100"
+      ],
+      "/STM32 Breakout/RX_N": [
+        "DIFF_100"
+      ],
+      "/STM32 Breakout/RX_P": [
+        "DIFF_100"
+      ],
+      "/STM32 Breakout/TD_N": [
+        "DIFF_100"
+      ],
+      "/STM32 Breakout/TD_P": [
+        "DIFF_100"
+      ],
+      "/STM32 Breakout/TX_N": [
+        "DIFF_100"
+      ],
+      "/STM32 Breakout/TX_P": [
+        "DIFF_100"
+      ],
+      "/STM32 Breakout/USB_N": [
+        "DIFF_90"
+      ],
+      "/STM32 Breakout/USB_P": [
+        "DIFF_90"
+      ]
+    },
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -724,7 +768,7 @@
         "uuid": "226c5870-4123-4efa-a2b3-b42d02f59bb7"
       }
     ],
-    "used_designators": "L1-2,R1-76,K1,J1-4,J13,J21,C1-55,C61,D1-49,U1-11,U14,F1-17,Q1-5,#PWR1-128,#PWR160-161,Y1-2,CR1,BZ1,H1-4,TP1-4,TP6-9",
+    "used_designators": "U1-14,D1-49,Q1-5,R1-81,TP1-4,TP6-9,BZ1,L1-2,FB1,Y1-2,#PWR1-143,#PWR160-161,CR1,H1-4,C1-65,J1-5,J13,J21,K1,F1-17",
     "variants": []
   },
   "sheets": [
